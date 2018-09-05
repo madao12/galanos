@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:600');
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=greek-ext');
+
+body {
+  background: rgb(152, 201, 60) !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #3a3a3a !important;
+
+
+}
+
+.content-bg {
+  background-color: white;
+}
+
+.container {
+  padding: 0 !important;
+
+}
+
+.red-color {
+
+  background-color: rgb(210, 43, 37);
+
+
+}
+
+
+.nav-menu {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+
+}
+
