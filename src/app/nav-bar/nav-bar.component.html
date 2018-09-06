@@ -1,12 +1,4 @@
-<!--Navbar-->
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark red-color">
-
-    <!-- Navbar brand -->
-    <mdb-navbar-brand>
-      <a class="navbar-brand" href="#">
-        <img src="assets/images/logo.jpg" alt="">
-      </a>
-    </mdb-navbar-brand>
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark ">
 
     <!-- Collapsible content -->
     <links>
@@ -14,13 +6,13 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a routerLink="/" class="nav-link waves-light" mdbWavesEffect >Αρχική<span class="sr-only">(current)</span></a>
+                <a routerLink="/" class="nav-link waves-light" mdbWavesEffect ><i class="fa fa-home" aria-hidden="true"></i>Αρχική<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" mdbWavesEffect>Η εταιρεία μας</a>
+                <a routerLink="/about" class="nav-link waves-light" mdbWavesEffect>Η εταιρεία μας</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" mdbWavesEffect>Κάτι</a>
+                <a  routerLink="/products" class="nav-link waves-light" mdbWavesEffect>Τα προϊόντα μας</a>
             </li>
 
             <!-- Dropdown -->
@@ -42,7 +34,7 @@
 <!-- Search form -->
 <ul class="navbar-nav justify-content-end ">
     <li class="nav-item">
-        <a class="nav-link" href="#!">Επικοινωνία</a>
+        <a routerLink="/contact" class="nav-link" href="#!"><i class="fa fa-phone"></i>Επικοινωνία</a>
     </li>
 
 </ul>

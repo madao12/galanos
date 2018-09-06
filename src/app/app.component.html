@@ -1,17 +1,45 @@
-<div class="container-flex  no-padding rounded noselect">
-    <app-nav-bar></app-nav-bar>
+<div class="container red-color no-padding rounded noselect">
+    <div class="row">
+        <div class="col-12 ">
+          <img class="logo img-fluid px-2 py-2" src="assets/images/logo.jpg" alt="">
+          <mdb-carousel [interval]="myInterval" [isControls]="true" [animation]="'slide'">
+            <!--First slide-->
+            <mdb-carousel-item>
+              <img class="d-block w-100" src="assets/images/carousel-main/1.jpg" alt="">
+              <div class="carousel-caption">
+                  <h1 class="h1-responsive">Κατι θα γραφει εδω</h1>
+                  <p>Κατι θα γραφει εδω</p>
+              </div>
+            </mdb-carousel-item>
+            <mdb-carousel-item>
+              <img class="d-block w-100" src="assets/images/carousel-main/2.jpg" alt="">
+              <div class="carousel-caption">
+                  <h1 class="h1-responsive">Κατι θα γραφει εδω</h1>
+                  <p>Κατι θα γραφει εδω</p>
+              </div>
+            </mdb-carousel-item>
+          </mdb-carousel>
+        </div>
+      </div>
+
+  <div class="row">
+    <div class="col-12">
+
+        <app-nav-bar></app-nav-bar>
+    </div>
+  </div>
 </div>
 
 
 <div class="container shadow-lg no-padding rounded noselect">
-    <div style= "height: 100%;" class="content-bg">
+    <div class="content-bg m-height">
         <router-outlet></router-outlet>
     </div>
 
-    <footer class="footer-copyright red-color py-3 text-center text-white">
-        © Κοτόπουλα Γαλανός
-    </footer>
 </div>
-<a routerLink="/galanos"  >Αρχική</a>
+<footer class="container footer-copyright red-color py-3 text-center text-white">
+  © Γαλανός A.E.
+</footer>
+
 
 
